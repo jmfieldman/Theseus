@@ -39,7 +39,7 @@ static volatile BOOL solving_in_progress = NO;
 		[contentView release];
 		
 		/* Nav view */
-		nav_view = [[NavigationControlView alloc] initWithFrame:CGRectMake(0, kNavConViewYCoord + kNavConViewHeight, self.view.frame.size.width, kNavConViewHeight)];
+		nav_view = [[NavigationControlView alloc] initWithFrame:CGRectMake(0, ([Globals isScreen35] ? 0 : 64) + kNavConViewYCoord + kNavConViewHeight, self.view.frame.size.width, kNavConViewHeight)];
 		nav_view.gestureDelegate = self;
 		[contentView addSubview:nav_view];
 		[nav_view changeToHandedness:[GameStateModel getRightHanded] animated:NO];
@@ -49,12 +49,12 @@ static volatile BOOL solving_in_progress = NO;
 		[contentView addSubview:status_view];
 		
 		/* Map View */
-		map_view = [[MapView alloc] initWithFrame:CGRectMake(0, 20, 320, 320)];
+		map_view = [[MapView alloc] initWithFrame:CGRectMake(0, [Globals isScreen35] ? 20 : 44, 320, 320)];
 		map_view.gestureDelegate = self;
 		[contentView addSubview:map_view];
 		
 		/* Tutorial View */
-		tutorial_view = [[TutorialView alloc] initWithFrame:CGRectMake(0, 180, 320, 160)];
+		tutorial_view = [[TutorialView alloc] initWithFrame:CGRectMake(0, [Globals isScreen35] ? 180 : 204, 320, 160)];
 		tutorial_view.hidden = YES;
 		[contentView addSubview:tutorial_view];
 		[tutorial_view release];

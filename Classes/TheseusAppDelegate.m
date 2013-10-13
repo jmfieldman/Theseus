@@ -68,6 +68,10 @@ void uncaughtExceptionHandler(NSException *exception) {
 	window.backgroundColor = [UIColor blackColor];
 	
 	//[window addSubview:[DungeonViewController sharedInstance].view];
+	CGRect f = window.frame;
+	f.size.height = [UIScreen mainScreen].bounds.size.height;
+	window.frame = f;
+	
 	[window addSubview:[FlourishController sharedInstance].view];
 	//window.rootViewController = [FlourishController sharedInstance];
 	

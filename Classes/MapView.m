@@ -141,6 +141,8 @@
 		rval.x = rad * (tx / ty);
 	}
 	
+	rval.y *= 1.2;
+	
 	rval.x += (self.frame.size.width / 2);
 	rval.y += (self.frame.size.height / 2);
 	return rval;

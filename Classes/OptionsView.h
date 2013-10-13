@@ -22,8 +22,8 @@ typedef enum {
 
 #define kOptionsFlourishDuration 0.25
 
-#define kYOffset 100.0
-#define kYStart 33.0
+#define kYOffset 95.0
+#define kYStart 43.0
 
 #define kSoundMult 0
 #define kIdleMult  1

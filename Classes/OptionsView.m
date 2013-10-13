@@ -20,7 +20,7 @@
 		
 		/* Background */
 		backgnd = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"options_bubble.png"]];
-		backgnd.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+		backgnd.frame = CGRectMake(0, 0, self.frame.size.width, 568);//self.frame.size.height);
 		[self addSubview:backgnd];
 		[backgnd release];
 		
