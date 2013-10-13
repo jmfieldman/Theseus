@@ -16,7 +16,7 @@
 #import "MapGenerator.h"
 #import "MapModel.h"
 
-#import "FlurryAPI.h"
+#import "Flurry.h"
 
 @implementation TheseusAppDelegate
 
@@ -41,12 +41,12 @@
 }
 
 void uncaughtExceptionHandler(NSException *exception) {
-	[FlurryAPI logError:@"Uncaught" message:@"Crash!" exception:exception];
+	[Flurry logError:@"Uncaught" message:@"Crash!" exception:exception];
 }
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
 	NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
-	[FlurryAPI startSession:@"YTCADT3LIDMKBGT7WKTQ"];
+	[Flurry startSession:@"YTCADT3LIDMKBGT7WKTQ"];
 	InitializeTiles();
 	[SoundManager initialize];
 	[GameStateModel CreateGameStateFileIfNecessary];

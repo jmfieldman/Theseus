@@ -58,7 +58,6 @@
 		351BB3B40F0611F900A8E662 /* awardsilver.png in Resources */ = {isa = PBXBuildFile; fileRef = 351BB3B20F0611F900A8E662 /* awardsilver.png */; };
 		351BB4760F06BAB600A8E662 /* FlourishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351BB4750F06BAB600A8E662 /* FlourishController.m */; };
 		351BB53A0F06D38B00A8E662 /* caught.wav in Resources */ = {isa = PBXBuildFile; fileRef = 351BB5390F06D38B00A8E662 /* caught.wav */; };
-		3530D5950F17253B00EA76FF /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3530D5940F17253B00EA76FF /* libFlurry.a */; };
 		3530D5BC0F172CB500EA76FF /* tutorial_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530D5BB0F172CB500EA76FF /* tutorial_arrow.png */; };
 		3530D68A0F181A7900EA76FF /* hint_halo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530D6890F181A7900EA76FF /* hint_halo.png */; };
 		35315DEE0F08153B00D9C3DE /* button_undo_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 35315DEC0F08153B00D9C3DE /* button_undo_gray.png */; };
@@ -88,6 +87,16 @@
 		35A2768A0F07592F00B0C903 /* CompletionSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A276890F07592F00B0C903 /* CompletionSummary.m */; };
 		35A276A30F07677F00B0C903 /* tada.wav in Resources */ = {isa = PBXBuildFile; fileRef = 35A276A10F07677F00B0C903 /* tada.wav */; };
 		35A276A40F07677F00B0C903 /* vault.wav in Resources */ = {isa = PBXBuildFile; fileRef = 35A276A20F07677F00B0C903 /* vault.wav */; };
+		35B7FD03180A28E30019BF59 /* Avro-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35B7FCFA180A28E30019BF59 /* Avro-LICENSE.txt */; };
+		35B7FD04180A28E30019BF59 /* Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 35B7FCFB180A28E30019BF59 /* Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf */; };
+		35B7FD05180A28E30019BF59 /* Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 35B7FCFC180A28E30019BF59 /* Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf */; };
+		35B7FD06180A28E30019BF59 /* Flurry-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35B7FCFD180A28E30019BF59 /* Flurry-LICENSE.txt */; };
+		35B7FD07180A28E30019BF59 /* Flurry_AppCircle_Advertiser_TOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 35B7FCFE180A28E30019BF59 /* Flurry_AppCircle_Advertiser_TOS.pdf */; };
+		35B7FD08180A28E30019BF59 /* Flurry_AppSpot_Publisher_Platform_TOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 35B7FCFF180A28E30019BF59 /* Flurry_AppSpot_Publisher_Platform_TOS.pdf */; };
+		35B7FD09180A28E30019BF59 /* Jansson-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35B7FD00180A28E30019BF59 /* Jansson-LICENSE.txt */; };
+		35B7FD0A180A28E30019BF59 /* libFlurry_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7FD02180A28E30019BF59 /* libFlurry_4.2.4.a */; };
+		35B7FD0D180A292B0019BF59 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7FD0B180A292B0019BF59 /* Security.framework */; };
+		35B7FD0E180A292B0019BF59 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7FD0C180A292B0019BF59 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -161,8 +170,6 @@
 		351BB4740F06BAB600A8E662 /* FlourishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlourishController.h; sourceTree = "<group>"; };
 		351BB4750F06BAB600A8E662 /* FlourishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlourishController.m; sourceTree = "<group>"; };
 		351BB5390F06D38B00A8E662 /* caught.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = caught.wav; path = Sounds/caught.wav; sourceTree = "<group>"; };
-		3530D5930F17253B00EA76FF /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
-		3530D5940F17253B00EA76FF /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		3530D5BB0F172CB500EA76FF /* tutorial_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tutorial_arrow.png; path = Images/tutorial_arrow.png; sourceTree = "<group>"; };
 		3530D6890F181A7900EA76FF /* hint_halo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hint_halo.png; path = Images/hint_halo.png; sourceTree = "<group>"; };
 		35315DEC0F08153B00D9C3DE /* button_undo_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_undo_gray.png; path = Images/button_undo_gray.png; sourceTree = "<group>"; };
@@ -196,6 +203,17 @@
 		35A276890F07592F00B0C903 /* CompletionSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompletionSummary.m; sourceTree = "<group>"; };
 		35A276A10F07677F00B0C903 /* tada.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tada.wav; path = Sounds/tada.wav; sourceTree = "<group>"; };
 		35A276A20F07677F00B0C903 /* vault.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = vault.wav; path = Sounds/vault.wav; sourceTree = "<group>"; };
+		35B7FCFA180A28E30019BF59 /* Avro-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Avro-LICENSE.txt"; sourceTree = "<group>"; };
+		35B7FCFB180A28E30019BF59 /* Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf"; sourceTree = "<group>"; };
+		35B7FCFC180A28E30019BF59 /* Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf"; sourceTree = "<group>"; };
+		35B7FCFD180A28E30019BF59 /* Flurry-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Flurry-LICENSE.txt"; sourceTree = "<group>"; };
+		35B7FCFE180A28E30019BF59 /* Flurry_AppCircle_Advertiser_TOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Flurry_AppCircle_Advertiser_TOS.pdf; sourceTree = "<group>"; };
+		35B7FCFF180A28E30019BF59 /* Flurry_AppSpot_Publisher_Platform_TOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Flurry_AppSpot_Publisher_Platform_TOS.pdf; sourceTree = "<group>"; };
+		35B7FD00180A28E30019BF59 /* Jansson-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Jansson-LICENSE.txt"; sourceTree = "<group>"; };
+		35B7FD01180A28E30019BF59 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = FlurryiPhoneSDK/Flurry.h; sourceTree = SOURCE_ROOT; };
+		35B7FD02180A28E30019BF59 /* libFlurry_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_4.2.4.a; path = FlurryiPhoneSDK/libFlurry_4.2.4.a; sourceTree = SOURCE_ROOT; };
+		35B7FD0B180A292B0019BF59 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		35B7FD0C180A292B0019BF59 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -204,13 +222,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B7FD0D180A292B0019BF59 /* Security.framework in Frameworks */,
+				35B7FD0E180A292B0019BF59 /* SystemConfiguration.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				35B7FD0A180A28E30019BF59 /* libFlurry_4.2.4.a in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				351BAC970F0305E300A8E662 /* QuartzCore.framework in Frameworks */,
 				351BAF870F04615F00A8E662 /* CoreAudio.framework in Frameworks */,
 				351BAF8B0F04616600A8E662 /* AudioToolbox.framework in Frameworks */,
-				3530D5950F17253B00EA76FF /* libFlurry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +296,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35B7FD0B180A292B0019BF59 /* Security.framework */,
+				35B7FD0C180A292B0019BF59 /* SystemConfiguration.framework */,
 				351BAF8A0F04616600A8E662 /* AudioToolbox.framework */,
 				351BAF860F04615F00A8E662 /* CoreAudio.framework */,
 				351BAC960F0305E300A8E662 /* QuartzCore.framework */,
@@ -412,12 +434,28 @@
 		3530D5920F17253B00EA76FF /* FlurryLib */ = {
 			isa = PBXGroup;
 			children = (
-				3530D5930F17253B00EA76FF /* FlurryAPI.h */,
-				3530D5940F17253B00EA76FF /* libFlurry.a */,
+				35B7FCF9180A28E30019BF59 /* Licenses */,
+				35B7FD01180A28E30019BF59 /* Flurry.h */,
+				35B7FD02180A28E30019BF59 /* libFlurry_4.2.4.a */,
 			);
 			name = FlurryLib;
 			path = FlurryiPhoneSDK/FlurryLib;
 			sourceTree = "<group>";
+		};
+		35B7FCF9180A28E30019BF59 /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				35B7FCFA180A28E30019BF59 /* Avro-LICENSE.txt */,
+				35B7FCFB180A28E30019BF59 /* Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf */,
+				35B7FCFC180A28E30019BF59 /* Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf */,
+				35B7FCFD180A28E30019BF59 /* Flurry-LICENSE.txt */,
+				35B7FCFE180A28E30019BF59 /* Flurry_AppCircle_Advertiser_TOS.pdf */,
+				35B7FCFF180A28E30019BF59 /* Flurry_AppSpot_Publisher_Platform_TOS.pdf */,
+				35B7FD00180A28E30019BF59 /* Jansson-LICENSE.txt */,
+			);
+			name = Licenses;
+			path = FlurryiPhoneSDK/Licenses;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -444,9 +482,20 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = GGY9Q9R73R;
+					};
+				};
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Theseus" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -464,11 +513,14 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				351BA99C0F01F86900A8E662 /* Localizable.strings in Resources */,
 				351BA9E90F02172200A8E662 /* tileA.png in Resources */,
+				35B7FD04180A28E30019BF59 /* Flurry AppCircle Advertiser TOS FINAL August 1, 2012.pdf in Resources */,
 				351BA9EA0F02172200A8E662 /* tileB.png in Resources */,
+				35B7FD03180A28E30019BF59 /* Avro-LICENSE.txt in Resources */,
 				351BAC800F02FCDE00A8E662 /* stairs.png in Resources */,
 				351BAC840F03015200A8E662 /* minotaur.png in Resources */,
 				351BAC850F03015200A8E662 /* theseus.png in Resources */,
 				351BAF800F0460A400A8E662 /* pop.wav in Resources */,
+				35B7FD06180A28E30019BF59 /* Flurry-LICENSE.txt in Resources */,
 				351BB0780F04743600A8E662 /* stone.wav in Resources */,
 				351BB0970F04774E00A8E662 /* enter.wav in Resources */,
 				351BB18C0F04A6A100A8E662 /* dpad.png in Resources */,
@@ -479,9 +531,13 @@
 				351BB1BD0F04AB9500A8E662 /* cannot_nav.wav in Resources */,
 				351BB2030F04B07F00A8E662 /* minotaur.au in Resources */,
 				351BB2040F04B07F00A8E662 /* snap.wav in Resources */,
+				35B7FD08180A28E30019BF59 /* Flurry_AppSpot_Publisher_Platform_TOS.pdf in Resources */,
 				351BB2210F05645400A8E662 /* button_menu.png in Resources */,
+				35B7FD07180A28E30019BF59 /* Flurry_AppCircle_Advertiser_TOS.pdf in Resources */,
 				351BB2220F05645500A8E662 /* button_reset.png in Resources */,
+				35B7FD09180A28E30019BF59 /* Jansson-LICENSE.txt in Resources */,
 				351BB2230F05645500A8E662 /* button_undo.png in Resources */,
+				35B7FD05180A28E30019BF59 /* Flurry AppSpot Publisher Platform TOS FINAL August 1, 2012.pdf in Resources */,
 				351BB2240F05645500A8E662 /* button_wait.png in Resources */,
 				351BB2A50F05CDD900A8E662 /* popup_box.png in Resources */,
 				351BB2EF0F05E40800A8E662 /* game_state in Resources */,
@@ -566,6 +622,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -575,9 +633,11 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/FlurryiPhoneSDK/FlurryLib\"",
+					"\\\"$(SRCROOT)/FlurryiPhoneSDK/FlurryLib\\\"",
+					/Users/jasonfieldman/Development/Theseus/FlurryiPhoneSDK,
 				);
 				PRODUCT_NAME = Theseus;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -585,6 +645,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Theseus_Prefix.pch;
@@ -592,9 +654,11 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/FlurryiPhoneSDK/FlurryLib\"",
+					"\\\"$(SRCROOT)/FlurryiPhoneSDK/FlurryLib\\\"",
+					/Users/jasonfieldman/Development/Theseus/FlurryiPhoneSDK,
 				);
 				PRODUCT_NAME = Theseus;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -619,6 +683,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -627,9 +693,11 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/FlurryiPhoneSDK/FlurryLib\"",
+					"\\\"$(SRCROOT)/FlurryiPhoneSDK/FlurryLib\\\"",
+					/Users/jasonfieldman/Development/Theseus/FlurryiPhoneSDK,
 				);
 				PRODUCT_NAME = Theseus;
+				PROVISIONING_PROFILE = "";
 			};
 			name = "Ad Hoc";
 		};
@@ -655,8 +723,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = dist.plist;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Fieldman";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Fieldman";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -665,10 +733,11 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/FlurryiPhoneSDK/FlurryLib\"",
+					"\\\"$(SRCROOT)/FlurryiPhoneSDK/FlurryLib\\\"",
+					/Users/jasonfieldman/Development/Theseus/FlurryiPhoneSDK,
 				);
 				PRODUCT_NAME = Theseus;
-				PROVISIONING_PROFILE = "A54818A6-F388-4D74-9A8F-3D851FF8ABAE";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A54818A6-F388-4D74-9A8F-3D851FF8ABAE";
 				SDKROOT = iphoneos2.0;
 			};
