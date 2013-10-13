@@ -91,22 +91,22 @@
 		CGSize s;
 		CGRect tr;
 		
-		s = [desc_sound.text sizeWithFont:desc_font constrainedToSize:CGSizeMake(kDescW,10000) lineBreakMode:UILineBreakModeWordWrap];
+		s = [desc_sound.text sizeWithFont:desc_font constrainedToSize:CGSizeMake(kDescW,10000) lineBreakMode:NSLineBreakByWordWrapping];
 		tr = desc_sound.frame;
 		tr.size.height = s.height;
 		desc_sound.frame = tr;
 		
-		s = [desc_idle.text sizeWithFont:desc_font constrainedToSize:CGSizeMake(kDescW,10000) lineBreakMode:UILineBreakModeWordWrap];
+		s = [desc_idle.text sizeWithFont:desc_font constrainedToSize:CGSizeMake(kDescW,10000) lineBreakMode:NSLineBreakByWordWrapping];
 		tr = desc_idle.frame;
 		tr.size.height = s.height;
 		desc_idle.frame = tr;
 		
-		s = [desc_hint.text sizeWithFont:desc_font constrainedToSize:CGSizeMake(kDescW,10000) lineBreakMode:UILineBreakModeWordWrap];
+		s = [desc_hint.text sizeWithFont:desc_font constrainedToSize:CGSizeMake(kDescW,10000) lineBreakMode:NSLineBreakByWordWrapping];
 		tr = desc_hint.frame;
 		tr.size.height = s.height;
 		desc_hint.frame = tr;
 		
-		s = [desc_rhand.text sizeWithFont:desc_font constrainedToSize:CGSizeMake(kDescW,10000) lineBreakMode:UILineBreakModeWordWrap];
+		s = [desc_rhand.text sizeWithFont:desc_font constrainedToSize:CGSizeMake(kDescW,10000) lineBreakMode:NSLineBreakByWordWrapping];
 		tr = desc_rhand.frame;
 		tr.size.height = s.height;
 		desc_rhand.frame = tr;

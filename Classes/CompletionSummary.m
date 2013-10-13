@@ -31,7 +31,7 @@
 		
 		label_menu.font = label_next.font = label_replay.font = kCompLabFont;
 		label_menu.backgroundColor = label_next.backgroundColor = label_replay.backgroundColor = [UIColor clearColor];
-		label_menu.textAlignment = label_next.textAlignment = label_replay.textAlignment = UITextAlignmentCenter;
+		label_menu.textAlignment = label_next.textAlignment = label_replay.textAlignment = NSTextAlignmentCenter;
 		label_menu.textColor = label_next.textColor = label_replay.textColor = [UIColor blackColor];
 		label_menu.userInteractionEnabled = label_next.userInteractionEnabled = label_replay.userInteractionEnabled = NO;
 		label_menu.shadowColor = label_next.shadowColor = label_replay.shadowColor = [UIColor whiteColor];
@@ -57,8 +57,8 @@
 		
 		label_complete.backgroundColor = label_moves.backgroundColor = [UIColor clearColor];
 		label_complete.text = JFLocalizedString(@"CompTitle", @"Level Complete!");
-		label_complete.textAlignment = UITextAlignmentCenter;
-		label_moves.textAlignment = UITextAlignmentCenter;
+		label_complete.textAlignment = NSTextAlignmentCenter;
+		label_moves.textAlignment = NSTextAlignmentCenter;
 		
 		label_complete.font = [UIFont fontWithName:@"Trebuchet MS" size:24];
 		label_complete.textColor = [UIColor whiteColor];

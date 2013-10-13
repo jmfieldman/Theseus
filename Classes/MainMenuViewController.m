@@ -70,7 +70,7 @@ static MainMenuViewController* shared_instance = nil;
 		UILabel *label_subtx = [[UILabel alloc] initWithFrame:CGRectMake(0, 30, 250, 20)];
 		label_table.text = JFLocalizedString(@"TitleText", @"Theseus and the Minotaur");
 		label_subtx.text = JFLocalizedString(@"LevelSelection", @"Level Selection");
-		label_table.textAlignment = label_subtx.textAlignment = UITextAlignmentRight;		
+		label_table.textAlignment = label_subtx.textAlignment = NSTextAlignmentRight;
 		label_table.backgroundColor = label_subtx.backgroundColor = [UIColor clearColor];
 		label_table.font = label_subtx.font = [UIFont fontWithName:@"Trebuchet MS" size:14];
 		[headerView addSubview:label_table]; [label_table release];

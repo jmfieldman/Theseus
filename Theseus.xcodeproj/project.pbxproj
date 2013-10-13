@@ -652,6 +652,7 @@
 				);
 				PRODUCT_NAME = Theseus;
 				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -673,6 +674,7 @@
 				);
 				PRODUCT_NAME = Theseus;
 				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -712,6 +714,7 @@
 				);
 				PRODUCT_NAME = Theseus;
 				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 			};
 			name = "Ad Hoc";
 		};
@@ -753,7 +756,7 @@
 				PRODUCT_NAME = Theseus;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A54818A6-F388-4D74-9A8F-3D851FF8ABAE";
-				SDKROOT = iphoneos2.0;
+				SDKROOT = iphoneos;
 			};
 			name = "App Store";
 		};

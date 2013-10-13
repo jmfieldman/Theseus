@@ -24,7 +24,7 @@
 		label_title.backgroundColor = [UIColor clearColor];
 		label_title.font = [UIFont fontWithName:@"Trebuchet MS" size:16];
 		label_title.text = JFLocalizedString(@"TutorialTitle", @"Tutorial");
-		label_title.textAlignment = UITextAlignmentCenter;
+		label_title.textAlignment = NSTextAlignmentCenter;
 		[self addSubview:label_title];
 		
 		scroll_font = [[UIFont fontWithName:@"Trebuchet MS" size:12] retain];
@@ -44,7 +44,7 @@
 		scroll_text = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 300, 119)];
 		scroll_text.font = scroll_font;
 		scroll_text.backgroundColor = [UIColor clearColor];
-		scroll_text.lineBreakMode = UILineBreakModeWordWrap;
+		scroll_text.lineBreakMode = NSLineBreakByWordWrapping;
 		scroll_text.numberOfLines = 0;
 		scroll_text.adjustsFontSizeToFitWidth = NO;
 		[scroll_view addSubview:scroll_text];
@@ -90,7 +90,7 @@
 	 CGSize s = [qt sizeWithFont:[UIFont systemFontOfSize:14] constrainedToSize:CGSizeMake(420, 1000) lineBreakMode:UILineBreakModeWordWrap];
 	 */
 	
-	CGSize s = [my_text sizeWithFont:scroll_font constrainedToSize:CGSizeMake(300,10000) lineBreakMode:UILineBreakModeWordWrap];
+	CGSize s = [my_text sizeWithFont:scroll_font constrainedToSize:CGSizeMake(300,10000) lineBreakMode:NSLineBreakByWordWrapping];
 
 	CGRect tr = scroll_text.frame;
 	tr.size.height = s.height;

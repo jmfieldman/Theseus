@@ -22,7 +22,7 @@
 }
 
 - (id) initWithLevel:(int)level {
-	if (self = [self initWithFrame:CGRectZero reuseIdentifier:nil]) {
+	if (self = [self initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil]) {
 		map_model = [MapGenerator getMap:level];
 
 		prev_w = map_model.size.w * 8;

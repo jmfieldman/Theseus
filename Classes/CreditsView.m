@@ -35,7 +35,7 @@
 		CGSize s;
 		CGRect tr;
 		
-		s = [content.text sizeWithFont:cont_font constrainedToSize:CGSizeMake(240,10000) lineBreakMode:UILineBreakModeWordWrap];
+		s = [content.text sizeWithFont:cont_font constrainedToSize:CGSizeMake(240,10000) lineBreakMode:NSLineBreakByWordWrapping];
 		tr = content.frame;
 		tr.size.height = s.height;
 		content.frame = tr;

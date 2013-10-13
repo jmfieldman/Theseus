@@ -73,42 +73,42 @@
 		label_menu = [[UILabel alloc] initWithFrame:kNavLabelPosLowerLeft];
 		label_menu.text = JFLocalizedString(@"MenuLabel", @"MENU");
 		label_menu.font = [UIFont fontWithName:kNavLabelFontFamily size:kNavLabelFontSize];
-		label_menu.textAlignment = UITextAlignmentCenter;
+		label_menu.textAlignment = NSTextAlignmentCenter;
 		[self addSubview:label_menu];
 		[label_menu release];
 		
 		label_reset = [[UILabel alloc] initWithFrame:kNavLabelPosUpperLeft];
 		label_reset.text = JFLocalizedString(@"ResetLabel", @"RESET");
 		label_reset.font = [UIFont fontWithName:kNavLabelFontFamily size:kNavLabelFontSize];
-		label_reset.textAlignment = UITextAlignmentCenter;
+		label_reset.textAlignment = NSTextAlignmentCenter;
 		[self addSubview:label_reset];
 		[label_reset release];		
 		
 		label_undo = [[UILabel alloc] initWithFrame:kNavLabelPosLowerRight];
 		label_undo.text = JFLocalizedString(@"UndoLabel", @"UNDO");
 		label_undo.font = [UIFont fontWithName:kNavLabelFontFamily size:kNavLabelFontSize];
-		label_undo.textAlignment = UITextAlignmentCenter;
+		label_undo.textAlignment = NSTextAlignmentCenter;
 		[self addSubview:label_undo];
 		[label_undo release];
 		
 		label_wait = [[UILabel alloc] initWithFrame:kNavLabelPosUpperRight];
 		label_wait.text = JFLocalizedString(@"WaitLabel", @"WAIT");
 		label_wait.font = [UIFont fontWithName:kNavLabelFontFamily size:kNavLabelFontSize];
-		label_wait.textAlignment = UITextAlignmentCenter;
+		label_wait.textAlignment = NSTextAlignmentCenter;
 		[self addSubview:label_wait];
 		[label_wait release];
 		
 		label_hint = [[UILabel alloc] initWithFrame:kNavLabelPosNTUpperLeft];
 		label_hint.text = JFLocalizedString(@"HintLabel", @"HINT");
 		label_hint.font = [UIFont fontWithName:kNavLabelFontFamily size:kNavLabelFontSize];
-		label_hint.textAlignment = UITextAlignmentCenter;
+		label_hint.textAlignment = NSTextAlignmentCenter;
 		[self addSubview:label_hint];
 		[label_hint release];
 		
 		label_options = [[UILabel alloc] initWithFrame:kNavLabelPosNTLowerLeft];
 		label_options.text = JFLocalizedString(@"OptionsLabel", @"OPTIONS");
 		label_options.font = [UIFont fontWithName:kNavLabelFontFamily size:kNavLabelFontSize];
-		label_options.textAlignment = UITextAlignmentCenter;
+		label_options.textAlignment = NSTextAlignmentCenter;
 		[self addSubview:label_options];
 		[label_options release];
 		
@@ -172,7 +172,8 @@
 		case DNAV_MOVE_W: p = CGPointMake(dpad_button.frame.origin.x + (DpadSize/4) - 3, dpad_button.frame.origin.y + (DpadSize/2)); break;
 		case DNAV_MOVE_E: p = CGPointMake(dpad_button.frame.origin.x + (3*DpadSize/4) + 3, dpad_button.frame.origin.y + (DpadSize/2)); break;
 		case DNAV_WAIT: p = CGPointMake(button_wait.center.x, button_wait.center.y-7); break;
-		case DNAV_UNDO: p = CGPointMake(button_undo.center.x, button_undo.center.y-7); break;	
+		case DNAV_UNDO: p = CGPointMake(button_undo.center.x, button_undo.center.y-7); break;
+		default: break;
 	}
 		
 	[self _handleHintPingAt:p];
