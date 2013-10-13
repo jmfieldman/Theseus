@@ -99,6 +99,7 @@
 		35B7FD0E180A292B0019BF59 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7FD0C180A292B0019BF59 /* SystemConfiguration.framework */; };
 		35B7FD11180A2DA30019BF59 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B7FD0F180A2DA30019BF59 /* Default-568h@2x.png */; };
 		35B7FD12180A2DA30019BF59 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B7FD10180A2DA30019BF59 /* Default@2x.png */; };
+		35B7FD15180A2FA30019BF59 /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B7FD14180A2FA30019BF59 /* Globals.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -218,6 +219,8 @@
 		35B7FD0C180A292B0019BF59 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		35B7FD0F180A2DA30019BF59 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Images/Default-568h@2x.png"; sourceTree = "<group>"; };
 		35B7FD10180A2DA30019BF59 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Images/Default@2x.png"; sourceTree = "<group>"; };
+		35B7FD13180A2FA30019BF59 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		35B7FD14180A2FA30019BF59 /* Globals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globals.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -344,6 +347,8 @@
 		351BA9C80F020A0100A8E662 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				35B7FD13180A2FA30019BF59 /* Globals.h */,
+				35B7FD14180A2FA30019BF59 /* Globals.m */,
 				351BB2EB0F05E3B900A8E662 /* GameStateModel.h */,
 				351BB2EC0F05E3B900A8E662 /* GameStateModel.m */,
 				351BA9CA0F020A1700A8E662 /* DataStructures.h */,
@@ -590,6 +595,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* TheseusAppDelegate.m in Sources */,
+				35B7FD15180A2FA30019BF59 /* Globals.m in Sources */,
 				351BA9CF0F020A1700A8E662 /* MapGenerator.m in Sources */,
 				351BA9D00F020A1700A8E662 /* MapModel.m in Sources */,
 				351BA9D80F02114300A8E662 /* DungeonViewController.m in Sources */,

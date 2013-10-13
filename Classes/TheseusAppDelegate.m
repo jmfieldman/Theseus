@@ -47,6 +47,7 @@ void uncaughtExceptionHandler(NSException *exception) {
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
 	NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
 	[Flurry startSession:@"YTCADT3LIDMKBGT7WKTQ"];
+	[Globals initGlobals];
 	InitializeTiles();
 	[SoundManager initialize];
 	[GameStateModel CreateGameStateFileIfNecessary];
@@ -64,8 +65,11 @@ void uncaughtExceptionHandler(NSException *exception) {
 	[MainMenuViewController sharedInstance];
 	[DungeonViewController sharedInstance];
 	
+	window.backgroundColor = [UIColor blackColor];
+	
 	//[window addSubview:[DungeonViewController sharedInstance].view];
 	[window addSubview:[FlourishController sharedInstance].view];
+	//window.rootViewController = [FlourishController sharedInstance];
 	
 	/* Load into the puzzle if we left off there.. */
 	int saved_level = [GameStateModel getCurrentLevel];

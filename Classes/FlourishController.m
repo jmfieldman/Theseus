@@ -20,6 +20,10 @@ static FlourishController *shared_instance = nil;
 	return shared_instance;
 }
 
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleDefault;
+}
+
 - (id) init {
 	if (self = [super init]) {
 		dvc = [DungeonViewController sharedInstance];
