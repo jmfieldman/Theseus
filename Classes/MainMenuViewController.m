@@ -29,7 +29,7 @@ static MainMenuViewController* shared_instance = nil;
 	if (self = [super init]) {
 		flourished_in = NO;
 		
-		contentView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+		contentView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, [UIScreen mainScreen].applicationFrame.size.height)];
 		contentView.backgroundColor = [UIColor whiteColor];
 		self.view = contentView;
 		[contentView release];
@@ -57,7 +57,7 @@ static MainMenuViewController* shared_instance = nil;
 		
 		/* Make the header view */
 		
-		headerView = [[UIView alloc] initWithFrame:CGRectMake(0, -kMenuHeaderHeight, contentView.frame.size.width, kMenuHeaderHeight)];
+		headerView = [[UIView alloc] initWithFrame:CGRectMake(0, -(kMenuHeaderHeight+20), contentView.frame.size.width, kMenuHeaderHeight)];
 		[contentView addSubview:headerView];
 		[headerView release];
 		
@@ -135,7 +135,7 @@ static MainMenuViewController* shared_instance = nil;
 	[UIView setAnimationDuration:kHeaderPopDuration];
 	[UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
 	CGPoint p = headerView.center;
-	p.y += kMenuHeaderHeight;
+	p.y += (kMenuHeaderHeight+20);
 	headerView.center = p;
 	[UIView commitAnimations];
 	
@@ -174,7 +174,7 @@ static MainMenuViewController* shared_instance = nil;
 	[UIView setAnimationDuration:kHeaderPopDuration];
 	[UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
 	CGPoint p = headerView.center;
-	p.y -= kMenuHeaderHeight;
+	p.y -= (kMenuHeaderHeight+20);
 	headerView.center = p;
 	[UIView commitAnimations];
 	

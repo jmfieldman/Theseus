@@ -97,6 +97,8 @@
 		35B7FD0A180A28E30019BF59 /* libFlurry_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7FD02180A28E30019BF59 /* libFlurry_4.2.4.a */; };
 		35B7FD0D180A292B0019BF59 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7FD0B180A292B0019BF59 /* Security.framework */; };
 		35B7FD0E180A292B0019BF59 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7FD0C180A292B0019BF59 /* SystemConfiguration.framework */; };
+		35B7FD11180A2DA30019BF59 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B7FD0F180A2DA30019BF59 /* Default-568h@2x.png */; };
+		35B7FD12180A2DA30019BF59 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B7FD10180A2DA30019BF59 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -214,6 +216,8 @@
 		35B7FD02180A28E30019BF59 /* libFlurry_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_4.2.4.a; path = FlurryiPhoneSDK/libFlurry_4.2.4.a; sourceTree = SOURCE_ROOT; };
 		35B7FD0B180A292B0019BF59 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		35B7FD0C180A292B0019BF59 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		35B7FD0F180A2DA30019BF59 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Images/Default-568h@2x.png"; sourceTree = "<group>"; };
+		35B7FD10180A2DA30019BF59 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Images/Default@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -371,6 +375,8 @@
 		351BA9E60F02171500A8E662 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				35B7FD0F180A2DA30019BF59 /* Default-568h@2x.png */,
+				35B7FD10180A2DA30019BF59 /* Default@2x.png */,
 				3530D6890F181A7900EA76FF /* hint_halo.png */,
 				3530D5BB0F172CB500EA76FF /* tutorial_arrow.png */,
 				3597460B0F0B044A00343BFE /* info_icon.png */,
@@ -544,6 +550,7 @@
 				351BB33B0F05F5B700A8E662 /* menu_header.png in Resources */,
 				351BB3B30F0611F900A8E662 /* awardgold.png in Resources */,
 				351BB3B40F0611F900A8E662 /* awardsilver.png in Resources */,
+				35B7FD11180A2DA30019BF59 /* Default-568h@2x.png in Resources */,
 				351BB53A0F06D38B00A8E662 /* caught.wav in Resources */,
 				35A2767C0F073C3D00B0C903 /* undo.wav in Resources */,
 				35A276820F07461800B0C903 /* flourish_out.wav in Resources */,
@@ -553,6 +560,7 @@
 				35315DEF0F08153B00D9C3DE /* button_wait_gray.png in Resources */,
 				35315E720F08597C00D9C3DE /* kick.wav in Resources */,
 				35315E730F08597C00D9C3DE /* thump.wav in Resources */,
+				35B7FD12180A2DA30019BF59 /* Default@2x.png in Resources */,
 				35973E490F08611000343BFE /* tutorial.png in Resources */,
 				35973F9D0F08A0EA00343BFE /* select.wav in Resources */,
 				35973FB50F08A25100343BFE /* minotaur_eating.png in Resources */,

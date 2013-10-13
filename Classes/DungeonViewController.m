@@ -33,7 +33,7 @@ static volatile BOOL solving_in_progress = NO;
 		mino_steps_remaining = 0;
 		playing_level = NO;
 		
-		contentView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+		contentView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, [UIScreen mainScreen].applicationFrame.size.height)];
 		contentView.backgroundColor = [UIColor whiteColor];
 		self.view = contentView;
 		[contentView release];

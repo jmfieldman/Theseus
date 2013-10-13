@@ -26,7 +26,16 @@ static FlourishController *shared_instance = nil;
 		mmvc = [MainMenuViewController sharedInstance];
 		
 		current_window = -1;
-		self.view = mmvc.view;
+		//self.view = mmvc.view;
+		
+		
+		/* WHAT THE FUCK WAS I THINKING? */
+		self.view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
+		self.view.backgroundColor = [UIColor whiteColor];
+		
+		[self.view addSubview:dvc.view];
+		[self.view addSubview:mmvc.view];
+		
 	}
 	return self;
 }
@@ -45,7 +54,9 @@ static FlourishController *shared_instance = nil;
 	if (current_window == CONT_DUNGEON) return;
 	current_window = CONT_DUNGEON;	
 	
-	self.view = dvc.view;
+	//self.view = dvc.view;
+	dvc.view.alpha = 1;
+	mmvc.view.alpha = 0;
 	[dvc flourishIn:level];
 }
 
@@ -53,7 +64,9 @@ static FlourishController *shared_instance = nil;
 	if (current_window == CONT_MENU) return;
 	current_window = CONT_MENU;
 	
-	self.view = mmvc.view;
+	//self.view = mmvc.view;
+	dvc.view.alpha = 0;
+	mmvc.view.alpha = 1;
 	[mmvc flourishIn];
 }
 
