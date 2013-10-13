@@ -373,6 +373,8 @@ static volatile BOOL solving_in_progress = NO;
 				break;
 			}
 		} break;
+			
+		default: break;
 	}
 }
 

@@ -261,6 +261,7 @@ static volatile BOOL should_cancel_solve = NO;
 		case DIR_W: theseus.x--; break;
 		case DIR_S: theseus.y++; break;
 		case DIR_E: theseus.x++; break;
+		default: break;
 	}
 	return YES;
 }
