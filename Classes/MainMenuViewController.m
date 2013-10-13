@@ -208,10 +208,10 @@ static MainMenuViewController* shared_instance = nil;
 /* -------------------------- TABLE DELEGATE METHODS ----------------------- */
 
 // decide what kind of accesory view (to the far right) we will use
-- (UITableViewCellAccessoryType)tableView:(UITableView *)tableView accessoryTypeForRowWithIndexPath:(NSIndexPath *)indexPath
-{
-	return UITableViewCellAccessoryNone;
-}
+//- (UITableViewCellAccessoryType)tableView:(UITableView *)tableView accessoryTypeForRowWithIndexPath:(NSIndexPath *)indexPath
+//{
+//	return UITableViewCellAccessoryNone;
+//}
 
 // Push the details view controller when a contract is selected
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

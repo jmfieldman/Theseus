@@ -90,7 +90,9 @@
 	 CGSize s = [qt sizeWithFont:[UIFont systemFontOfSize:14] constrainedToSize:CGSizeMake(420, 1000) lineBreakMode:UILineBreakModeWordWrap];
 	 */
 	
-	CGSize s = [my_text sizeWithFont:scroll_font constrainedToSize:CGSizeMake(300,10000) lineBreakMode:NSLineBreakByWordWrapping];
+	CGSize s = [my_text sizeWithFont:scroll_font constrainedToSize:CGSizeMake(295,10000) lineBreakMode:NSLineBreakByWordWrapping];
+	
+	NSLog(@"size: %f %f", s.width, s.height);
 
 	CGRect tr = scroll_text.frame;
 	tr.size.height = s.height;
