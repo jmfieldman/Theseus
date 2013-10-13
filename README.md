@@ -11,6 +11,11 @@ I was greatly inspired by the clean aesthetic of Subway Shuffle. The new UI had 
 
 More info here: http://www.fieldman.org/theseus
 
+iOS7 Re-release
+---------------
+
+The code in this repository is modified from the original, intended as the iOS7 re-release.
+
 
 License
 -------
