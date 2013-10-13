@@ -39,7 +39,7 @@ static volatile BOOL solving_in_progress = NO;
 		[contentView release];
 		
 		/* Nav view */
-		nav_view = [[NavigationControlView alloc] initWithFrame:CGRectMake(0, ([Globals isScreen35] ? 0 : 64) + kNavConViewYCoord + kNavConViewHeight, self.view.frame.size.width, kNavConViewHeight)];
+		nav_view = [[NavigationControlView alloc] initWithFrame:CGRectMake(0, 40 + ([Globals isScreen35] ? 0 : 64) + kNavConViewYCoord + kNavConViewHeight, self.view.frame.size.width, kNavConViewHeight)];
 		nav_view.gestureDelegate = self;
 		[contentView addSubview:nav_view];
 		[nav_view changeToHandedness:[GameStateModel getRightHanded] animated:NO];
@@ -136,7 +136,7 @@ static volatile BOOL solving_in_progress = NO;
 	[UIView setAnimationDuration:kStatusBarAppearDuration];
 	[UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
 	CGPoint p = nav_view.center;
-	p.y -= kNavConViewHeight;
+	p.y -= (kNavConViewHeight + 40);
 	nav_view.center = p;
 	[UIView commitAnimations];
 	
@@ -184,7 +184,7 @@ static volatile BOOL solving_in_progress = NO;
 	[UIView setAnimationDuration:kStatusBarAppearDuration];
 	[UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
 	CGPoint p = nav_view.center;
-	p.y += kNavConViewHeight;
+	p.y += (kNavConViewHeight + 40);
 	nav_view.center = p;
 	[UIView commitAnimations];
 	

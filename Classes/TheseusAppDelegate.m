@@ -92,6 +92,15 @@ void uncaughtExceptionHandler(NSException *exception) {
 	[GameStateModel SaveGameState];
 }
 
+- (void)applicationWillResignActive:(UIApplication *)application {
+	[GameStateModel SaveGameState];
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+	
+}
+
+
 - (void)dealloc {
     [window release];
     [super dealloc];
