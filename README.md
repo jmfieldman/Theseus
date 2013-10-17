@@ -1,6 +1,8 @@
 Theseus
 -------
 
+<b>THIS CODE WAS WRITTEN IN 2009 FOR iOS 2.0.  IT IS A DISASTER.  DO NOT LOOK.</b>
+
 During my freshman year at Berkeley I stumbled across the Java version of a fantastic little puzzle game called Theseus and the Minotaur (there’s more about the game’s history here). Ten years later, I decided that it would be a great puzzler for the iPhone, and contacted Robert Abbott about using his designs and levels.
 
 I am not great at creating original art/design, and it’s reflected in my apps. The first incarnation of Theseus was pretty crude. I used sprites for everything, and had no concept of animation. Whenever Theseus or the Minotaur moved, they would instantly jump from one tile to the next. The UI itself was basic and sparse. I did love how I made the Minotaur seem larger than the tiles, so that he stood out ominously from the maze.
